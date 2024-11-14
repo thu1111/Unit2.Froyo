@@ -21,8 +21,7 @@ function printObj(obj) {
     
     for (const key in obj) {
         console.log(`${obj[key]} ${key} froyo`);
-    }
-    
+    }   
 }
 
 const finalObj = createObj(orderedArr);
